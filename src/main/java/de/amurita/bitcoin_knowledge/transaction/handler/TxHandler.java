@@ -1,4 +1,7 @@
-package org.amurita.bitcoin_knowledge.transaction.handler;
+package de.amurita.bitcoin_knowledge.transaction.handler;
+
+import de.amurita.bitcoin_knowledge.transaction.Transaction;
+import de.amurita.bitcoin_knowledge.transaction.UTXOPool;
 
 public class TxHandler {
 
@@ -22,6 +25,7 @@ public class TxHandler {
      */
     public boolean isValidTx(Transaction tx) {
         // IMPLEMENT THIS
+        return true;
     }
 
     /**
@@ -31,6 +35,7 @@ public class TxHandler {
      */
     public Transaction[] handleTxs(Transaction[] possibleTxs) {
         // IMPLEMENT THIS
+        return possibleTxs;
     }
 
 }

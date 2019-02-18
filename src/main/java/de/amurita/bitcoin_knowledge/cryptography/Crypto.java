@@ -1,4 +1,4 @@
-package org.amurita.bitcoin_knowledge.cryptography;
+package de.amurita.bitcoin_knowledge.cryptography;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;

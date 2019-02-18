@@ -1,4 +1,4 @@
-package org.amurita.bitcoin_knowledge.transaction;
+package de.amurita.bitcoin_knowledge.transaction;
 
 import java.util.Arrays;
 
